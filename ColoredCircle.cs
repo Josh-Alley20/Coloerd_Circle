@@ -11,7 +11,7 @@
     | - radius : double                         |
     | - color  : string                         |
     |-------------------------------------------|
-    | + SetRadius(radiusParameter: double): void|
+    | + SetRadius(radiusOfCircle: double): void |
     | + GetRadius(): double                     |
     | + SetColor(colorOfCircle: string): void   |
     | + GetColor(): string                      |
@@ -27,9 +27,9 @@ class ColoredCircle
     private double radius;
     private string color;
 
-    public void SetRadius(double radiusParameter)
+    public void SetRadius(double radiusOfCircle)
     {
-        radius = radiusParameter;
+        radius = radiusOfCircle;
     }
 
     public double GetRadius()
