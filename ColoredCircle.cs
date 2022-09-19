@@ -24,36 +24,36 @@
 
 class ColoredCircle
 {
-    private double radius;
-    private string color;
+    private double radius; 
+    private string color; 
 
     public void SetRadius(double radiusOfCircle)
     {
-        radius = radiusOfCircle;
+        radius = radiusOfCircle; // this is a setter for the double radius.
     }
 
     public double GetRadius()
     {
-        return radius;
+        return radius; // This is a getter and returns a double for radius.
     }
 
     public void SetColor(string colorOfCircle)
     {
-        color = colorOfCircle;
+        color = colorOfCircle; // This a a setter for the string color
     }
 
     public string GetColor()
     {
-        return color;
+        return color;  // This is a getter and returns the string of color.
     }
 
-    public int ComputeArea()
+    public double ComputeArea()
     {
-        return (int)(3.14159 * radius * radius);
+        return (3.14159 * radius * radius); // takes user input of radius and returns the Area as a double.
     }
 
-    public int ComputeCircumference()
+    public double ComputeCircumference() 
     {
-        return (int)(3.14159 * radius * 2);
+        return (3.14159 * radius * 2); // takes user input of radius and returns the Circumference as a double.
     }
 }
