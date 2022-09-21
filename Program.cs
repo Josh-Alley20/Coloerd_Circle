@@ -1,4 +1,11 @@
 ﻿using System;
+
+/*
+ * Joshua Alley
+ * 9/21/2022
+ * CSCI-1301-A
+ */
+
 class Program
 {
     static void Main(string[] args)
